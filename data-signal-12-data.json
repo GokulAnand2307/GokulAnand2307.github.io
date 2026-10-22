@@ -1,0 +1,179 @@
+{
+  "source": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/september2026",
+  "released": "2026-10-21",
+  "trend": [
+    {
+      "month": "2025-09-01",
+      "CPI (%)": 3.8,
+      "CPIH (%)": 4.1
+    },
+    {
+      "month": "2025-10-01",
+      "CPI (%)": 3.6,
+      "CPIH (%)": 3.8
+    },
+    {
+      "month": "2025-11-01",
+      "CPI (%)": 3.2,
+      "CPIH (%)": 3.5
+    },
+    {
+      "month": "2025-12-01",
+      "CPI (%)": 3.4,
+      "CPIH (%)": 3.6
+    },
+    {
+      "month": "2026-01-01",
+      "CPI (%)": 3,
+      "CPIH (%)": 3.2
+    },
+    {
+      "month": "2026-02-01",
+      "CPI (%)": 3,
+      "CPIH (%)": 3.2
+    },
+    {
+      "month": "2026-03-01",
+      "CPI (%)": 3.3,
+      "CPIH (%)": 3.4
+    },
+    {
+      "month": "2026-04-01",
+      "CPI (%)": 2.8,
+      "CPIH (%)": 3
+    },
+    {
+      "month": "2026-05-01",
+      "CPI (%)": 2.8,
+      "CPIH (%)": 3
+    },
+    {
+      "month": "2026-06-01",
+      "CPI (%)": 2.6,
+      "CPIH (%)": 2.8
+    },
+    {
+      "month": "2026-07-01",
+      "CPI (%)": 2.9,
+      "CPIH (%)": 3.1
+    },
+    {
+      "month": "2026-08-01",
+      "CPI (%)": 3.1,
+      "CPIH (%)": 3.3
+    },
+    {
+      "month": "2026-09-01",
+      "CPI (%)": 3.5,
+      "CPIH (%)": 3.6
+    }
+  ],
+  "divisions": [
+    {
+      "category": "Food & non-alcoholic beverages",
+      "August (%)": 1.3,
+      "September (%)": 1.3,
+      "Change (pp)": 0,
+      "September 2025 monthly (%)": -0.2,
+      "September 2026 monthly (%)": -0.2
+    },
+    {
+      "category": "Alcohol & tobacco",
+      "August (%)": 2.7,
+      "September (%)": 2.5,
+      "Change (pp)": -0.2,
+      "September 2025 monthly (%)": 0,
+      "September 2026 monthly (%)": -0.3
+    },
+    {
+      "category": "Clothing & footwear",
+      "August (%)": 0.2,
+      "September (%)": 0.1,
+      "Change (pp)": -0.1,
+      "September 2025 monthly (%)": 2.4,
+      "September 2026 monthly (%)": 2.2
+    },
+    {
+      "category": "Housing & household services",
+      "August (%)": 4.3,
+      "September (%)": 4.5,
+      "Change (pp)": 0.2,
+      "September 2025 monthly (%)": 0.3,
+      "September 2026 monthly (%)": 0.5
+    },
+    {
+      "category": "Furniture & household goods",
+      "August (%)": 0.8,
+      "September (%)": 1,
+      "Change (pp)": 0.2,
+      "September 2025 monthly (%)": 0,
+      "September 2026 monthly (%)": 0.2
+    },
+    {
+      "category": "Health",
+      "August (%)": 3.7,
+      "September (%)": 3.5,
+      "Change (pp)": -0.2,
+      "September 2025 monthly (%)": 0.2,
+      "September 2026 monthly (%)": 0
+    },
+    {
+      "category": "Transport",
+      "August (%)": 4.6,
+      "September (%)": 6.6,
+      "Change (pp)": 2,
+      "September 2025 monthly (%)": -2.3,
+      "September 2026 monthly (%)": -0.4
+    },
+    {
+      "category": "Communication",
+      "August (%)": 5.3,
+      "September (%)": 5.8,
+      "Change (pp)": 0.5,
+      "September 2025 monthly (%)": -0.3,
+      "September 2026 monthly (%)": 0.2
+    },
+    {
+      "category": "Recreation & culture",
+      "August (%)": 1.6,
+      "September (%)": 2.3,
+      "Change (pp)": 0.7,
+      "September 2025 monthly (%)": 0,
+      "September 2026 monthly (%)": 0.7
+    },
+    {
+      "category": "Education",
+      "August (%)": 5.1,
+      "September (%)": 5,
+      "Change (pp)": -0.1,
+      "September 2025 monthly (%)": 1.5,
+      "September 2026 monthly (%)": 1.4
+    },
+    {
+      "category": "Restaurants & hotels",
+      "August (%)": 4.1,
+      "September (%)": 3.8,
+      "Change (pp)": -0.3,
+      "September 2025 monthly (%)": 0.8,
+      "September 2026 monthly (%)": 0.5
+    },
+    {
+      "category": "Miscellaneous goods & services",
+      "August (%)": 2.9,
+      "September (%)": 3.1,
+      "Change (pp)": 0.2,
+      "September 2025 monthly (%)": -0.1,
+      "September 2026 monthly (%)": 0.2
+    }
+  ],
+  "base": [
+    {
+      "period": "September 2025",
+      "Monthly change (%)": -2.3
+    },
+    {
+      "period": "September 2026",
+      "Monthly change (%)": -0.4
+    }
+  ]
+}
