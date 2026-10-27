@@ -10,3 +10,6 @@ Professional portfolio of Gokul Anand Srinivasan — business analysis, data ana
 - [Data Signal 10: UK electric-car registrations](https://gokulanand2307.github.io/data-signal-10.html) — SMMT September 2026 data.
 
 Published-data snapshots; no automatic data refresh. Sources, scope and caveats are documented in each dashboard.
+
+
+- [Data Signal 13: AI and employment](https://gokulanand2307.github.io/data-signal-13.html) — UK/EU employment context, ten EU strategic-sector AI comparisons, UK reported headcount effects; source-backed fixed snapshot, 27 October 2026. Interactive filters and CSV export.

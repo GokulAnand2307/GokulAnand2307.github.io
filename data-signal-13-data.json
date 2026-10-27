@@ -1,0 +1,241 @@
+{
+  "edition": 13,
+  "asOf": "2026-10-27",
+  "urls": {
+    "uk": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/october2026",
+    "eu": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260911-1",
+    "ai": "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/8october2026",
+    "sectors": "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/ai-adoption-more-doubles-almost-every-eu-strategic-sector-2026-10-14_en"
+  },
+  "queries": {
+    "sectors": {
+      "title": "EU AI uptake by strategic sector",
+      "source": {
+        "type": "public",
+        "name": "European Commission JRC",
+        "url": "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/ai-adoption-more-doubles-almost-every-eu-strategic-sector-2026-10-14_en",
+        "description": "Share of firms using at least one AI technology. JRC mappings from Eurostat ICT enterprise survey. Strategic groups are not a complete mutually exclusive economy-wide classification. All surveyed sectors is the published benchmark, not an average calculated from these ten groups.",
+        "retrievedAt": "2026-10-27",
+        "executedAt": "2026-10-27T12:00:00Z",
+        "tables": [
+          {
+            "name": "European Commission JRC",
+            "href": "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/ai-adoption-more-doubles-almost-every-eu-strategic-sector-2026-10-14_en"
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Published evidence",
+            "detail": "Read https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/ai-adoption-more-doubles-almost-every-eu-strategic-sector-2026-10-14_en (release 2026-10-14); transcribe the rounded published values. Fixed snapshot, no automatic refresh."
+          }
+        ]
+      },
+      "methods": [
+        {
+          "language": "text",
+          "code": "Transcribe 2021 and 2025 chart endpoints. Change (pp) = 2025 (%) minus 2021 (%). Do not sum sectors or join them to employment rates."
+        }
+      ],
+      "rows": [
+        {
+          "sector": "Media",
+          "2021 (%)": 13,
+          "2025 (%)": 38,
+          "Change (pp)": 25
+        },
+        {
+          "sector": "Energy",
+          "2021 (%)": 18,
+          "2025 (%)": 34,
+          "Change (pp)": 16
+        },
+        {
+          "sector": "Electronic",
+          "2021 (%)": 12,
+          "2025 (%)": 30,
+          "Change (pp)": 18
+        },
+        {
+          "sector": "Pharma",
+          "2021 (%)": 7,
+          "2025 (%)": 23,
+          "Change (pp)": 16
+        },
+        {
+          "sector": "All surveyed sectors",
+          "2021 (%)": 8,
+          "2025 (%)": 20,
+          "Change (pp)": 12
+        },
+        {
+          "sector": "Defence",
+          "2021 (%)": 9,
+          "2025 (%)": 20,
+          "Change (pp)": 11
+        },
+        {
+          "sector": "Climate",
+          "2021 (%)": 7,
+          "2025 (%)": 16,
+          "Change (pp)": 9
+        },
+        {
+          "sector": "Manufacturing",
+          "2021 (%)": 7,
+          "2025 (%)": 16,
+          "Change (pp)": 9
+        },
+        {
+          "sector": "Agri-Food",
+          "2021 (%)": 5,
+          "2025 (%)": 13,
+          "Change (pp)": 8
+        },
+        {
+          "sector": "Tourism",
+          "2021 (%)": 3,
+          "2025 (%)": 13,
+          "Change (pp)": 10
+        },
+        {
+          "sector": "Mobility",
+          "2021 (%)": 6,
+          "2025 (%)": 12,
+          "Change (pp)": 6
+        }
+      ]
+    },
+    "uk": {
+      "title": "UK employment context",
+      "source": {
+        "type": "public",
+        "name": "ONS Labour market overview",
+        "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/october2026",
+        "description": "Seasonally adjusted employment rate, ages 16–64. March–May baseline derived from rounded latest rate minus published quarterly change. LFS uncertainty and collection/imputation issues: interpret with PAYE and other evidence.",
+        "retrievedAt": "2026-10-27",
+        "executedAt": "2026-10-27T12:00:00Z",
+        "tables": [
+          {
+            "name": "ONS Labour market overview",
+            "href": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/october2026"
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Published evidence",
+            "detail": "Read https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/october2026 (release 2026-10-20); transcribe the rounded published values. Fixed snapshot, no automatic refresh."
+          }
+        ]
+      },
+      "rows": [
+        {
+          "period": "Mar–May 2026",
+          "Employment rate (%)": 75.1
+        },
+        {
+          "period": "Jun–Aug 2026",
+          "Employment rate (%)": 75.3
+        }
+      ]
+    },
+    "eu": {
+      "title": "EU employment context",
+      "source": {
+        "type": "public",
+        "name": "Eurostat EU-LFS",
+        "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260911-1",
+        "description": "EU27 seasonally adjusted employment rate, ages 20–64, Q1 and Q2 2026. Different ages and periods from UK: no direct ranking.",
+        "retrievedAt": "2026-10-27",
+        "executedAt": "2026-10-27T12:00:00Z",
+        "tables": [
+          {
+            "name": "Eurostat EU-LFS",
+            "href": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260911-1"
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Published evidence",
+            "detail": "Read https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260911-1 (release 2026-09-11); transcribe the rounded published values. Fixed snapshot, no automatic refresh."
+          }
+        ]
+      },
+      "rows": [
+        {
+          "period": "Q1 2026",
+          "Employment rate (%)": 76.3
+        },
+        {
+          "period": "Q2 2026",
+          "Employment rate (%)": 76.4
+        }
+      ]
+    },
+    "adoption": {
+      "title": "UK adoption among businesses with 10+ employees",
+      "source": {
+        "type": "public",
+        "name": "ONS BICS Wave 165",
+        "url": "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/8october2026",
+        "description": "Percent of businesses with 10+ employees using AI. 2023 value derived as 38 minus published 26 percentage-point increase; rounded. Private-sector survey coverage; excludes some industries and public sector. Official statistics in development.",
+        "retrievedAt": "2026-10-27",
+        "executedAt": "2026-10-27T12:00:00Z",
+        "tables": [
+          {
+            "name": "ONS BICS Wave 165",
+            "href": "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/8october2026"
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Published evidence",
+            "detail": "Read https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/8october2026 (release 2026-10-08); transcribe the rounded published values. Fixed snapshot, no automatic refresh."
+          }
+        ]
+      },
+      "rows": [
+        {
+          "period": "Sep 2023",
+          "AI adoption (%)": 12
+        },
+        {
+          "period": "Jun 2026",
+          "AI adoption (%)": 35
+        },
+        {
+          "period": "Sep 2026",
+          "AI adoption (%)": 38
+        }
+      ]
+    },
+    "impact": {
+      "title": "UK reported headcount reduction",
+      "source": {
+        "type": "public",
+        "name": "ONS BICS Wave 165",
+        "url": "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/8october2026",
+        "description": "September 2026; among AI-adopting businesses with 10+ employees, 6% reported reduced headcount as a result of AI. Fewer than 1% reported increased headcount. Business-count-weighted self-report, not percentage of workers or a causal estimate. Do not infer the remaining response categories.",
+        "retrievedAt": "2026-10-27",
+        "executedAt": "2026-10-27T12:00:00Z",
+        "tables": [
+          {
+            "name": "ONS BICS Wave 165",
+            "href": "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/8october2026"
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Published evidence",
+            "detail": "Read https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/8october2026 (release 2026-10-08); transcribe the rounded published values. Fixed snapshot, no automatic refresh."
+          }
+        ]
+      },
+      "rows": [
+        {
+          "outcome": "Reported headcount reduction",
+          "Businesses (%)": 6
+        }
+      ]
+    }
+  }
+}
