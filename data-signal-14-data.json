@@ -1,0 +1,662 @@
+{
+  "title": "Gokul's Data Signal 14",
+  "status": "complete",
+  "filters": [],
+  "queries": {
+    "labour": {
+      "title": "Youth and older-worker unemployment",
+      "source": {
+        "type": "public",
+        "name": "OECD · Unemployment rates, 10 November 2026",
+        "url": "https://www.oecd.org/content/dam/oecd/en/data/insights/statistical-releases/2026/11/unemployment-rates-oecd-11-2026.pdf",
+        "description": "Table 4, page 7. Selected UK + ten EU countries and EU27 benchmark. Unemployment as percent of each age group’s labour force, not total population. OECD heading: youth 15–24, older 25+; UK national youth measure is 16–24. UK July reference means June–August rolling quarter. Values transcribed from rounded table; missing cells preserved. No causal explanation inferred.",
+        "retrievedAt": "2026-11-10",
+        "executedAt": "2026-11-10T16:23:22Z",
+        "tables": [
+          {
+            "name": "Table 4 — unemployment rates by age group",
+            "href": "https://www.oecd.org/content/dam/oecd/en/data/insights/statistical-releases/2026/11/unemployment-rates-oecd-11-2026.pdf"
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Retrieve primary table",
+            "detail": "Open https://www.oecd.org/content/dam/oecd/en/data/insights/statistical-releases/2026/11/unemployment-rates-oecd-11-2026.pdf; read Table 4, columns annual 2024, annual 2025, July, August and September 2026 for the 12 named areas."
+          },
+          {
+            "title": "Calculate comparisons",
+            "detail": "Subtract age-25+ rate from youth rate for percentage-point gap; divide youth rate by age-25+ rate for ratio. Preserve nulls. Latest view uses last non-null monthly observation per area. No averaging country rates."
+          }
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Unemployment rate",
+            "definition": "Unemployed people as a percentage of employed plus unemployed people in the same age group. Students outside the labour force are excluded."
+          },
+          {
+            "label": "Age gap",
+            "definition": "Youth unemployment rate minus age-25+ unemployment rate, in percentage points."
+          }
+        ]
+      },
+      "methods": [
+        {
+          "language": "text",
+          "code": "Select named Table 4 rows. Gap = youth minus 25+; ratio = youth / 25+. Round gap to 1 decimal and ratio to 2 decimals. Missing inputs yield null."
+        }
+      ],
+      "rows": [
+        {
+          "country": "United Kingdom",
+          "period": "2024",
+          "frequency": "Annual average",
+          "observation": "2024",
+          "Youth (%)": 14,
+          "Age 25+ (%)": 2.9,
+          "Gap (pp)": 11.1,
+          "Rate ratio": 4.83
+        },
+        {
+          "country": "United Kingdom",
+          "period": "2025",
+          "frequency": "Annual average",
+          "observation": "2025",
+          "Youth (%)": 15,
+          "Age 25+ (%)": 3.4,
+          "Gap (pp)": 11.6,
+          "Rate ratio": 4.41
+        },
+        {
+          "country": "United Kingdom",
+          "period": "2026-07",
+          "frequency": "Monthly reference",
+          "observation": "Jun–Aug 2026",
+          "Youth (%)": 15.6,
+          "Age 25+ (%)": 3.1,
+          "Gap (pp)": 12.5,
+          "Rate ratio": 5.03
+        },
+        {
+          "country": "United Kingdom",
+          "period": "2026-08",
+          "frequency": "Monthly reference",
+          "observation": "Not available",
+          "Youth (%)": null,
+          "Age 25+ (%)": null,
+          "Gap (pp)": null,
+          "Rate ratio": null
+        },
+        {
+          "country": "United Kingdom",
+          "period": "2026-09",
+          "frequency": "Monthly reference",
+          "observation": "Not available",
+          "Youth (%)": null,
+          "Age 25+ (%)": null,
+          "Gap (pp)": null,
+          "Rate ratio": null
+        },
+        {
+          "country": "European Union",
+          "period": "2024",
+          "frequency": "Annual average",
+          "observation": "2024",
+          "Youth (%)": 14.9,
+          "Age 25+ (%)": 5.1,
+          "Gap (pp)": 9.8,
+          "Rate ratio": 2.92
+        },
+        {
+          "country": "European Union",
+          "period": "2025",
+          "frequency": "Annual average",
+          "observation": "2025",
+          "Youth (%)": 15.2,
+          "Age 25+ (%)": 5.1,
+          "Gap (pp)": 10.1,
+          "Rate ratio": 2.98
+        },
+        {
+          "country": "European Union",
+          "period": "2026-07",
+          "frequency": "Monthly reference",
+          "observation": "2026-07",
+          "Youth (%)": 15.3,
+          "Age 25+ (%)": 5.3,
+          "Gap (pp)": 10,
+          "Rate ratio": 2.89
+        },
+        {
+          "country": "European Union",
+          "period": "2026-08",
+          "frequency": "Monthly reference",
+          "observation": "2026-08",
+          "Youth (%)": 15.4,
+          "Age 25+ (%)": 5.3,
+          "Gap (pp)": 10.1,
+          "Rate ratio": 2.91
+        },
+        {
+          "country": "European Union",
+          "period": "2026-09",
+          "frequency": "Monthly reference",
+          "observation": "2026-09",
+          "Youth (%)": 15.5,
+          "Age 25+ (%)": 5.3,
+          "Gap (pp)": 10.2,
+          "Rate ratio": 2.92
+        },
+        {
+          "country": "France",
+          "period": "2024",
+          "frequency": "Annual average",
+          "observation": "2024",
+          "Youth (%)": 18.7,
+          "Age 25+ (%)": 6.1,
+          "Gap (pp)": 12.6,
+          "Rate ratio": 3.07
+        },
+        {
+          "country": "France",
+          "period": "2025",
+          "frequency": "Annual average",
+          "observation": "2025",
+          "Youth (%)": 19.7,
+          "Age 25+ (%)": 6.2,
+          "Gap (pp)": 13.5,
+          "Rate ratio": 3.18
+        },
+        {
+          "country": "France",
+          "period": "2026-07",
+          "frequency": "Monthly reference",
+          "observation": "2026-07",
+          "Youth (%)": 21,
+          "Age 25+ (%)": 6.8,
+          "Gap (pp)": 14.2,
+          "Rate ratio": 3.09
+        },
+        {
+          "country": "France",
+          "period": "2026-08",
+          "frequency": "Monthly reference",
+          "observation": "2026-08",
+          "Youth (%)": 20.8,
+          "Age 25+ (%)": 6.8,
+          "Gap (pp)": 14,
+          "Rate ratio": 3.06
+        },
+        {
+          "country": "France",
+          "period": "2026-09",
+          "frequency": "Monthly reference",
+          "observation": "2026-09",
+          "Youth (%)": 21.9,
+          "Age 25+ (%)": 6.9,
+          "Gap (pp)": 15,
+          "Rate ratio": 3.17
+        },
+        {
+          "country": "Germany",
+          "period": "2024",
+          "frequency": "Annual average",
+          "observation": "2024",
+          "Youth (%)": 6.5,
+          "Age 25+ (%)": 3,
+          "Gap (pp)": 3.5,
+          "Rate ratio": 2.17
+        },
+        {
+          "country": "Germany",
+          "period": "2025",
+          "frequency": "Annual average",
+          "observation": "2025",
+          "Youth (%)": 7,
+          "Age 25+ (%)": 3.4,
+          "Gap (pp)": 3.6,
+          "Rate ratio": 2.06
+        },
+        {
+          "country": "Germany",
+          "period": "2026-07",
+          "frequency": "Monthly reference",
+          "observation": "2026-07",
+          "Youth (%)": 7.6,
+          "Age 25+ (%)": 3.6,
+          "Gap (pp)": 4,
+          "Rate ratio": 2.11
+        },
+        {
+          "country": "Germany",
+          "period": "2026-08",
+          "frequency": "Monthly reference",
+          "observation": "2026-08",
+          "Youth (%)": 7.5,
+          "Age 25+ (%)": 3.7,
+          "Gap (pp)": 3.8,
+          "Rate ratio": 2.03
+        },
+        {
+          "country": "Germany",
+          "period": "2026-09",
+          "frequency": "Monthly reference",
+          "observation": "2026-09",
+          "Youth (%)": 7.5,
+          "Age 25+ (%)": 3.7,
+          "Gap (pp)": 3.8,
+          "Rate ratio": 2.03
+        },
+        {
+          "country": "Spain",
+          "period": "2024",
+          "frequency": "Annual average",
+          "observation": "2024",
+          "Youth (%)": 26.5,
+          "Age 25+ (%)": 10.2,
+          "Gap (pp)": 16.3,
+          "Rate ratio": 2.6
+        },
+        {
+          "country": "Spain",
+          "period": "2025",
+          "frequency": "Annual average",
+          "observation": "2025",
+          "Youth (%)": 24.8,
+          "Age 25+ (%)": 9.4,
+          "Gap (pp)": 15.4,
+          "Rate ratio": 2.64
+        },
+        {
+          "country": "Spain",
+          "period": "2026-07",
+          "frequency": "Monthly reference",
+          "observation": "2026-07",
+          "Youth (%)": 22.8,
+          "Age 25+ (%)": 9.1,
+          "Gap (pp)": 13.7,
+          "Rate ratio": 2.51
+        },
+        {
+          "country": "Spain",
+          "period": "2026-08",
+          "frequency": "Monthly reference",
+          "observation": "2026-08",
+          "Youth (%)": 22.7,
+          "Age 25+ (%)": 9.2,
+          "Gap (pp)": 13.5,
+          "Rate ratio": 2.47
+        },
+        {
+          "country": "Spain",
+          "period": "2026-09",
+          "frequency": "Monthly reference",
+          "observation": "2026-09",
+          "Youth (%)": 22.8,
+          "Age 25+ (%)": 9.2,
+          "Gap (pp)": 13.6,
+          "Rate ratio": 2.48
+        },
+        {
+          "country": "Ireland",
+          "period": "2024",
+          "frequency": "Annual average",
+          "observation": "2024",
+          "Youth (%)": 10.5,
+          "Age 25+ (%)": 3.4,
+          "Gap (pp)": 7.1,
+          "Rate ratio": 3.09
+        },
+        {
+          "country": "Ireland",
+          "period": "2025",
+          "frequency": "Annual average",
+          "observation": "2025",
+          "Youth (%)": 11.7,
+          "Age 25+ (%)": 3.7,
+          "Gap (pp)": 8,
+          "Rate ratio": 3.16
+        },
+        {
+          "country": "Ireland",
+          "period": "2026-07",
+          "frequency": "Monthly reference",
+          "observation": "2026-07",
+          "Youth (%)": 12.4,
+          "Age 25+ (%)": 4,
+          "Gap (pp)": 8.4,
+          "Rate ratio": 3.1
+        },
+        {
+          "country": "Ireland",
+          "period": "2026-08",
+          "frequency": "Monthly reference",
+          "observation": "2026-08",
+          "Youth (%)": 12.4,
+          "Age 25+ (%)": 4,
+          "Gap (pp)": 8.4,
+          "Rate ratio": 3.1
+        },
+        {
+          "country": "Ireland",
+          "period": "2026-09",
+          "frequency": "Monthly reference",
+          "observation": "2026-09",
+          "Youth (%)": 12.5,
+          "Age 25+ (%)": 4,
+          "Gap (pp)": 8.5,
+          "Rate ratio": 3.13
+        },
+        {
+          "country": "Netherlands",
+          "period": "2024",
+          "frequency": "Annual average",
+          "observation": "2024",
+          "Youth (%)": 8.7,
+          "Age 25+ (%)": 2.6,
+          "Gap (pp)": 6.1,
+          "Rate ratio": 3.35
+        },
+        {
+          "country": "Netherlands",
+          "period": "2025",
+          "frequency": "Annual average",
+          "observation": "2025",
+          "Youth (%)": 8.8,
+          "Age 25+ (%)": 2.8,
+          "Gap (pp)": 6,
+          "Rate ratio": 3.14
+        },
+        {
+          "country": "Netherlands",
+          "period": "2026-07",
+          "frequency": "Monthly reference",
+          "observation": "2026-07",
+          "Youth (%)": 8.6,
+          "Age 25+ (%)": 3,
+          "Gap (pp)": 5.6,
+          "Rate ratio": 2.87
+        },
+        {
+          "country": "Netherlands",
+          "period": "2026-08",
+          "frequency": "Monthly reference",
+          "observation": "2026-08",
+          "Youth (%)": 8.8,
+          "Age 25+ (%)": 3,
+          "Gap (pp)": 5.8,
+          "Rate ratio": 2.93
+        },
+        {
+          "country": "Netherlands",
+          "period": "2026-09",
+          "frequency": "Monthly reference",
+          "observation": "2026-09",
+          "Youth (%)": 8.8,
+          "Age 25+ (%)": 3,
+          "Gap (pp)": 5.8,
+          "Rate ratio": 2.93
+        },
+        {
+          "country": "Poland",
+          "period": "2024",
+          "frequency": "Annual average",
+          "observation": "2024",
+          "Youth (%)": 10.8,
+          "Age 25+ (%)": 2.4,
+          "Gap (pp)": 8.4,
+          "Rate ratio": 4.5
+        },
+        {
+          "country": "Poland",
+          "period": "2025",
+          "frequency": "Annual average",
+          "observation": "2025",
+          "Youth (%)": 12.2,
+          "Age 25+ (%)": 2.5,
+          "Gap (pp)": 9.7,
+          "Rate ratio": 4.88
+        },
+        {
+          "country": "Poland",
+          "period": "2026-07",
+          "frequency": "Monthly reference",
+          "observation": "2026-07",
+          "Youth (%)": 11.4,
+          "Age 25+ (%)": 2.9,
+          "Gap (pp)": 8.5,
+          "Rate ratio": 3.93
+        },
+        {
+          "country": "Poland",
+          "period": "2026-08",
+          "frequency": "Monthly reference",
+          "observation": "2026-08",
+          "Youth (%)": 11.4,
+          "Age 25+ (%)": 2.8,
+          "Gap (pp)": 8.6,
+          "Rate ratio": 4.07
+        },
+        {
+          "country": "Poland",
+          "period": "2026-09",
+          "frequency": "Monthly reference",
+          "observation": "2026-09",
+          "Youth (%)": 11.3,
+          "Age 25+ (%)": 2.8,
+          "Gap (pp)": 8.5,
+          "Rate ratio": 4.04
+        },
+        {
+          "country": "Sweden",
+          "period": "2024",
+          "frequency": "Annual average",
+          "observation": "2024",
+          "Youth (%)": 24,
+          "Age 25+ (%)": 6.2,
+          "Gap (pp)": 17.8,
+          "Rate ratio": 3.87
+        },
+        {
+          "country": "Sweden",
+          "period": "2025",
+          "frequency": "Annual average",
+          "observation": "2025",
+          "Youth (%)": 24.3,
+          "Age 25+ (%)": 6.7,
+          "Gap (pp)": 17.6,
+          "Rate ratio": 3.63
+        },
+        {
+          "country": "Sweden",
+          "period": "2026-07",
+          "frequency": "Monthly reference",
+          "observation": "2026-07",
+          "Youth (%)": 23,
+          "Age 25+ (%)": 6.6,
+          "Gap (pp)": 16.4,
+          "Rate ratio": 3.48
+        },
+        {
+          "country": "Sweden",
+          "period": "2026-08",
+          "frequency": "Monthly reference",
+          "observation": "2026-08",
+          "Youth (%)": 22.8,
+          "Age 25+ (%)": 6.8,
+          "Gap (pp)": 16,
+          "Rate ratio": 3.35
+        },
+        {
+          "country": "Sweden",
+          "period": "2026-09",
+          "frequency": "Monthly reference",
+          "observation": "2026-09",
+          "Youth (%)": 21.7,
+          "Age 25+ (%)": 6.7,
+          "Gap (pp)": 15,
+          "Rate ratio": 3.24
+        },
+        {
+          "country": "Finland",
+          "period": "2024",
+          "frequency": "Annual average",
+          "observation": "2024",
+          "Youth (%)": 18.6,
+          "Age 25+ (%)": 7.1,
+          "Gap (pp)": 11.5,
+          "Rate ratio": 2.62
+        },
+        {
+          "country": "Finland",
+          "period": "2025",
+          "frequency": "Annual average",
+          "observation": "2025",
+          "Youth (%)": 21.6,
+          "Age 25+ (%)": 8.1,
+          "Gap (pp)": 13.5,
+          "Rate ratio": 2.67
+        },
+        {
+          "country": "Finland",
+          "period": "2026-07",
+          "frequency": "Monthly reference",
+          "observation": "2026-07",
+          "Youth (%)": 23.4,
+          "Age 25+ (%)": 8.9,
+          "Gap (pp)": 14.5,
+          "Rate ratio": 2.63
+        },
+        {
+          "country": "Finland",
+          "period": "2026-08",
+          "frequency": "Monthly reference",
+          "observation": "2026-08",
+          "Youth (%)": 22.7,
+          "Age 25+ (%)": 8.3,
+          "Gap (pp)": 14.4,
+          "Rate ratio": 2.73
+        },
+        {
+          "country": "Finland",
+          "period": "2026-09",
+          "frequency": "Monthly reference",
+          "observation": "2026-09",
+          "Youth (%)": 25.2,
+          "Age 25+ (%)": 9.1,
+          "Gap (pp)": 16.1,
+          "Rate ratio": 2.77
+        },
+        {
+          "country": "Denmark",
+          "period": "2024",
+          "frequency": "Annual average",
+          "observation": "2024",
+          "Youth (%)": 14.6,
+          "Age 25+ (%)": 4.7,
+          "Gap (pp)": 9.9,
+          "Rate ratio": 3.11
+        },
+        {
+          "country": "Denmark",
+          "period": "2025",
+          "frequency": "Annual average",
+          "observation": "2025",
+          "Youth (%)": 13.8,
+          "Age 25+ (%)": 5,
+          "Gap (pp)": 8.8,
+          "Rate ratio": 2.76
+        },
+        {
+          "country": "Denmark",
+          "period": "2026-07",
+          "frequency": "Monthly reference",
+          "observation": "2026-07",
+          "Youth (%)": 10.8,
+          "Age 25+ (%)": 5.9,
+          "Gap (pp)": 4.9,
+          "Rate ratio": 1.83
+        },
+        {
+          "country": "Denmark",
+          "period": "2026-08",
+          "frequency": "Monthly reference",
+          "observation": "2026-08",
+          "Youth (%)": 14.8,
+          "Age 25+ (%)": 4.2,
+          "Gap (pp)": 10.6,
+          "Rate ratio": 3.52
+        },
+        {
+          "country": "Denmark",
+          "period": "2026-09",
+          "frequency": "Monthly reference",
+          "observation": "2026-09",
+          "Youth (%)": 16.2,
+          "Age 25+ (%)": 5.1,
+          "Gap (pp)": 11.1,
+          "Rate ratio": 3.18
+        },
+        {
+          "country": "Portugal",
+          "period": "2024",
+          "frequency": "Annual average",
+          "observation": "2024",
+          "Youth (%)": 21.8,
+          "Age 25+ (%)": 5.3,
+          "Gap (pp)": 16.5,
+          "Rate ratio": 4.11
+        },
+        {
+          "country": "Portugal",
+          "period": "2025",
+          "frequency": "Annual average",
+          "observation": "2025",
+          "Youth (%)": 19.4,
+          "Age 25+ (%)": 5.1,
+          "Gap (pp)": 14.3,
+          "Rate ratio": 3.8
+        },
+        {
+          "country": "Portugal",
+          "period": "2026-07",
+          "frequency": "Monthly reference",
+          "observation": "2026-07",
+          "Youth (%)": 21,
+          "Age 25+ (%)": 4.6,
+          "Gap (pp)": 16.4,
+          "Rate ratio": 4.57
+        },
+        {
+          "country": "Portugal",
+          "period": "2026-08",
+          "frequency": "Monthly reference",
+          "observation": "2026-08",
+          "Youth (%)": 19.9,
+          "Age 25+ (%)": 4.6,
+          "Gap (pp)": 15.3,
+          "Rate ratio": 4.33
+        },
+        {
+          "country": "Portugal",
+          "period": "2026-09",
+          "frequency": "Monthly reference",
+          "observation": "2026-09",
+          "Youth (%)": 19.1,
+          "Age 25+ (%)": 4.6,
+          "Gap (pp)": 14.5,
+          "Rate ratio": 4.15
+        }
+      ]
+    }
+  },
+  "surface": "dashboard",
+  "id": "dashboard:d50319b8-0401-4c75-9ba7-9e97f3a7d3a3",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "subtitle": "UK + Europe · The youth unemployment gap",
+  "generatedAt": "2026-11-10T16:23:22Z",
+  "updatedAt": "2026-11-10T16:23:22Z"
+}

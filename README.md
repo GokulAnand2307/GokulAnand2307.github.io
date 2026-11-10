@@ -13,3 +13,6 @@ Published-data snapshots; no automatic data refresh. Sources, scope and caveats 
 
 
 - [Data Signal 13: AI and employment](https://gokulanand2307.github.io/data-signal-13.html) — UK/EU employment context, ten EU strategic-sector AI comparisons, UK reported headcount effects; source-backed fixed snapshot, 27 October 2026. Interactive filters and CSV export.
+
+
+- [Data Signal 14: The youth unemployment gap](https://gokulanand2307.github.io/data-signal-14.html) — OECD release 10 November 2026; UK, ten EU countries and EU27 benchmark. Age-group comparisons, period controls, country exploration and CSV export. Fixed evidence snapshot.
