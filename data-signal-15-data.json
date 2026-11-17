@@ -1,0 +1,195 @@
+{
+  "title": "Gokul's Data Signal 15",
+  "subtitle": "Company layoffs · Read beyond the headline",
+  "status": "complete",
+  "generatedAt": "2026-11-17T15:27:49.745Z",
+  "queries": {
+    "plans": {
+      "title": "Company workforce-reduction disclosures",
+      "source": {
+        "type": "public",
+        "name": "Selected company disclosures · October–November 2026",
+        "description": "Seven plan components across six companies. Purposive recent examples, not a representative layoff census. Global/company-wide scopes, not UK-only job losses. Announcement, consultation and completion are distinct. Null means not quantified in selected disclosure. Never sum percentages or infer counts from headcount.",
+        "retrievedAt": "2026-11-17",
+        "tables": [
+          {
+            "name": "imperial",
+            "href": "https://www.imperialbrandsplc.com/content/dam/imperialbrands/corporate/documents/investor-hub/results/2026/IMB-FY26-Results-slides-and-appendices.pdf.downloadasset.pdf"
+          },
+          {
+            "name": "fico",
+            "href": "https://investors.fico.com/static-files/d23035a1-351f-4018-9d75-a38ff5b84245"
+          },
+          {
+            "name": "hubspot",
+            "href": "https://www.hubspot.com/company-news/company-update"
+          },
+          {
+            "name": "hubspotTiming",
+            "href": "https://hubspot.gcs-web.com/static-files/2ade97b8-339f-4ed4-b8c5-597a8ba9f29c"
+          },
+          {
+            "name": "dropbox",
+            "href": "https://investors.dropbox.com/static-files/b4d72ee0-2331-494a-9ccb-03cb66bba8f7"
+          },
+          {
+            "name": "angi",
+            "href": "https://ir.angi.com/static-files/55442f0b-2cd4-445a-a96f-5d417a2c8fd7"
+          },
+          {
+            "name": "fti",
+            "href": "https://ir.fticonsulting.com/static-files/45081cb4-2594-49d0-91fc-ffddd04bbaa4"
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Collect primary disclosures",
+            "detail": "Read each row’s source and location; Imperial slide 29 is available via the search-indexed official PDF excerpt. Keep publication/event dates and timing qualifications. HubSpot timing comes from Note 17 of 4 November 10-Q."
+          },
+          {
+            "title": "Preserve reported measurement",
+            "detail": "Transcribe counts, ranges and percentages separately. Store nearly 660 as a qualified display value. Keep missing values null; no imputed job counts or sector/economy totals."
+          }
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Reported workforce share (%)",
+            "definition": "Approximate proportion of the company workforce or positions covered by the specified plan, as disclosed; not share of jobs already lost."
+          },
+          {
+            "label": "Reported roles",
+            "definition": "Number of roles in a disclosed plan component; preserve approximate/nearly qualifiers and expected ranges. Imperial current and further programmes are separate."
+          }
+        ]
+      },
+      "methods": [
+        {
+          "language": "text",
+          "code": "Seven rows representing six companies. Retain separate Imperial current and expected-future components. For roles charts, filter non-null roles and display lower and upper endpoints, never add endpoints. For workforce share, filter non-null share and deduplicate by company. No aggregate layoffs estimate."
+        }
+      ],
+      "rows": [
+        {
+          "id": "imperial-current",
+          "company": "Imperial Brands",
+          "sector": "Consumer goods",
+          "disclosed": "2026-11-17",
+          "label": "Imperial · existing programme",
+          "rolesLow": 2100,
+          "rolesHigh": 2100,
+          "share": null,
+          "qualifier": "Confirmed or in consultation",
+          "timing": "FY26 programme; exits confirmed or under consultation",
+          "reason": "Efficiency programme",
+          "ai": "AI tools discussed alongside efficiency; no job-by-job causal attribution",
+          "note": "Do not treat consultation as completed exits. Separate from further reductions to 2030.",
+          "source": "https://www.imperialbrandsplc.com/content/dam/imperialbrands/corporate/documents/investor-hub/results/2026/IMB-FY26-Results-slides-and-appendices.pdf.downloadasset.pdf",
+          "location": "Slide 29"
+        },
+        {
+          "id": "imperial-future",
+          "company": "Imperial Brands",
+          "sector": "Consumer goods",
+          "disclosed": "2026-11-17",
+          "label": "Imperial · further by 2030",
+          "rolesLow": 2100,
+          "rolesHigh": 2500,
+          "share": null,
+          "qualifier": "Expected range",
+          "timing": "Further reductions expected by end 2030",
+          "reason": "Efficiency programme",
+          "ai": "AI tools discussed alongside efficiency; no job-by-job causal attribution",
+          "note": "2,100–2,500 further roles; upper bound is not a completed count.",
+          "source": "https://www.imperialbrandsplc.com/content/dam/imperialbrands/corporate/documents/investor-hub/results/2026/IMB-FY26-Results-slides-and-appendices.pdf.downloadasset.pdf",
+          "location": "Slide 29"
+        },
+        {
+          "id": "fico",
+          "company": "FICO",
+          "sector": "Software / analytics",
+          "disclosed": "2026-10-06",
+          "label": "FICO",
+          "rolesLow": null,
+          "rolesHigh": null,
+          "share": 15,
+          "qualifier": "Approximately",
+          "timing": "Substantially complete by end of fiscal Q3 2027",
+          "reason": "Fewer layers, process changes and AI-driven product development",
+          "ai": "AI-driven product development explicitly included among several changes",
+          "note": "Plan committed 1 October; notification began week of 5 October. No count inferred from a percentage.",
+          "source": "https://investors.fico.com/static-files/d23035a1-351f-4018-9d75-a38ff5b84245",
+          "location": "Item 2.05, page 2"
+        },
+        {
+          "id": "hubspot",
+          "company": "HubSpot",
+          "sector": "Software / analytics",
+          "disclosed": "2026-10-06",
+          "label": "HubSpot",
+          "rolesLow": 660,
+          "rolesHigh": 660,
+          "share": 7,
+          "qualifier": "Nearly 660; approximately 7%",
+          "timing": "Substantially complete by end of Q1 2027, subject to local requirements",
+          "reason": "Organisation aligned with strategy; fewer layers",
+          "ai": "CEO explicitly says the decision is not driven by AI-related efficiencies",
+          "note": "660 is a rounded display of “nearly 660”, not an exact tally. Timing: 4 November 10-Q.",
+          "source": "https://www.hubspot.com/company-news/company-update",
+          "secondarySource": "https://hubspot.gcs-web.com/static-files/2ade97b8-339f-4ed4-b8c5-597a8ba9f29c",
+          "location": "CEO message; 10-Q Note 17"
+        },
+        {
+          "id": "dropbox",
+          "company": "Dropbox",
+          "sector": "Software / analytics",
+          "disclosed": "2026-10-28",
+          "label": "Dropbox",
+          "rolesLow": null,
+          "rolesHigh": null,
+          "share": 9,
+          "qualifier": "Approximately",
+          "timing": "Exit completion date not specified in cited disclosure",
+          "reason": "Align investments and team structure with product and growth priorities",
+          "ai": "No AI-efficiency cause stated in the cited reduction-in-force paragraph",
+          "note": "Announced 28 October, documented in 6 November 10-Q. Expense/payment timing is not an exit completion date. Earlier 2026 rounds excluded.",
+          "source": "https://investors.dropbox.com/static-files/b4d72ee0-2331-494a-9ccb-03cb66bba8f7",
+          "location": "Note 15, PDF page 38"
+        },
+        {
+          "id": "fti",
+          "company": "FTI Consulting",
+          "sector": "Professional services",
+          "disclosed": "2026-10-30",
+          "label": "FTI Consulting",
+          "rolesLow": null,
+          "rolesHigh": null,
+          "share": 4,
+          "qualifier": "Approximately",
+          "timing": "Q3–Q4 2026; subject to notice periods",
+          "reason": "Align staffing with demand",
+          "ai": "No AI cause stated in cited restructuring paragraph",
+          "note": "Plan began Q3; all affected employees notified by 29 October. 4% of more than 8,200 is not an exact count.",
+          "source": "https://ir.fticonsulting.com/static-files/45081cb4-2594-49d0-91fc-ffddd04bbaa4",
+          "location": "Item 2.05, page 2"
+        },
+        {
+          "id": "angi",
+          "company": "Angi",
+          "sector": "Home-services platform",
+          "disclosed": "2026-11-03",
+          "label": "Angi",
+          "rolesLow": 300,
+          "rolesHigh": 300,
+          "share": null,
+          "qualifier": "Approximately",
+          "timing": "Exit completion date not specified in cited disclosure",
+          "reason": "Increase focus and organisational speed",
+          "ai": "No AI cause stated in cited reduction-in-force paragraph",
+          "note": "Mostly middle management and support functions. Charge timing does not establish completed exits.",
+          "source": "https://ir.angi.com/static-files/55442f0b-2cd4-445a-a96f-5d417a2c8fd7",
+          "location": "Reduction in Force, PDF page 54"
+        }
+      ]
+    }
+  }
+}

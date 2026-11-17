@@ -16,3 +16,5 @@ Published-data snapshots; no automatic data refresh. Sources, scope and caveats 
 
 
 - [Data Signal 14: The youth unemployment gap](https://gokulanand2307.github.io/data-signal-14.html) — OECD release 10 November 2026; UK, ten EU countries and EU27 benchmark. Age-group comparisons, period controls, country exploration and CSV export. Fixed evidence snapshot.
+
+- [Data Signal 15: Company layoffs](https://gokulanand2307.github.io/data-signal-15.html) — Six company disclosures, October–November 2026. Interactive sector/date comparisons, role ranges, workforce shares, company context and CSV export. Fixed evidence snapshot checked 17 November 2026.

@@ -1,0 +1,40 @@
+A layoff headline is not a layoff count.
+
+
+I kept coming back to that while reading recent company announcements.
+
+
+On 17 November, Imperial Brands reported 2,100 exits confirmed or in consultation, plus a further 2,100–2,500 roles expected to go by the end of 2030.
+
+That is a serious workforce change. It is also different from saying 4,600 people have already left.
+
+
+For Gokul’s Data Signal 15, I went back to six companies’ own disclosures to understand the numbers behind the headlines.
+
+Some report a percentage of their workforce. Others report a role count. Some describe consultations; others describe plans that run into 2027 or 2030.
+
+
+The human impact matters. So does describing it accurately.
+
+
+As a business analyst, I’d want to know what happens after the announcement: are people redeployed, does workload rise, and what happens to service quality and delivery?
+
+Headcount savings alone won’t answer those questions.
+
+
+When a company announces a restructuring, what evidence would convince you that it has improved the business beyond reducing costs?
+
+
+Explore my interactive dashboard — filter by sector and disclosure window, compare reported figures and read each company’s context:
+
+https://gokulanand2307.github.io/data-signal-15.html
+
+My GitHub:
+https://github.com/GokulAnand2307
+
+
+Primary sources and scope notes in the comments.
+
+
+#DataAnalytics #Layoffs #WorkforcePlanning #BusinessAnalysis #FutureOfWork
+
