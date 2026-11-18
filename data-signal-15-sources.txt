@@ -1,31 +1,21 @@
-Sources for Gokul’s Data Signal 15 — checked 17 November 2026.
+Sources for Gokul’s Data Signal 15 — checked 18 November 2026.
 
+Dataset with company-level source URLs, periods and caveats:
+https://gokulanand2307.github.io/data-signal-15-data.csv
 
-Imperial Brands — 17 November 2026 results presentation, slide 29. Existing programme and further reductions expected by 2030:
-https://www.imperialbrandsplc.com/content/dam/imperialbrands/corporate/documents/investor-hub/results/2026/IMB-FY26-Results-slides-and-appendices.pdf.downloadasset.pdf
+Interactive dashboard and all primary links:
+https://gokulanand2307.github.io/data-signal-15.html#evidence
 
+Amazon — 28 January 2026 employee update:
+https://www.aboutamazon.com/news/company-news/amazon-layoffs-corporate-jan-2026
 
-FICO — 6 October 2026 filing, Item 2.05:
-https://investors.fico.com/static-files/d23035a1-351f-4018-9d75-a38ff5b84245
+Meta — 29 July 2026 Q2 call, covering the May reduction:
+https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/META-Q2-2026-Earnings-Call-Transcript.pdf
 
+Accenture — FY2026 10-K, year ended 31 August 2026:
+https://investor.accenture.com/~/media/Files/A/accenture-v4/investors/earnings-reports/2026/accenture-2026-10-k.pdf
 
-HubSpot — 6 October 2026 CEO message:
-https://www.hubspot.com/company-news/company-update
+HSBC — 27 October 2026 Q3 release:
+https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2026/3q/pdfs/hsbc-holdings-plc/261027-3q-2026-earnings-release-6-k.pdf
 
-HubSpot — 4 November 2026 filing, Note 17, for expected timing:
-https://hubspot.gcs-web.com/static-files/2ade97b8-339f-4ed4-b8c5-597a8ba9f29c
-
-
-Dropbox — 6 November 2026 filing, Note 15; announcement dated 28 October:
-https://investors.dropbox.com/static-files/b4d72ee0-2331-494a-9ccb-03cb66bba8f7
-
-
-FTI Consulting — 30 October 2026 filing, Item 2.05:
-https://ir.fticonsulting.com/static-files/45081cb4-2594-49d0-91fc-ffddd04bbaa4
-
-
-Angi — 3 November 2026 filing, Reduction in Force:
-https://ir.angi.com/static-files/55442f0b-2cd4-445a-a96f-5d417a2c8fd7
-
-
-Reading notes: these are six selected company examples, not a complete layoffs tracker or a UK/European redundancy total. Counts and percentages cover different plans and periods. Announcements, consultations and completed exits are different states. Approximate figures and ranges retain their qualifications; missing values are not zero. Company explanations are attributed statements, not independent causal proof of AI replacing jobs. The evidence is a fixed snapshot, not an automatically refreshed feed.
+Scope: ten selected companies, not industry totals. Disclosed reductions and net workforce changes are different measures. Periods, workforce definitions and timelines vary. Missing figures are not zero. No estimate of jobs replaced by AI; fixed snapshot, not an automatic feed.

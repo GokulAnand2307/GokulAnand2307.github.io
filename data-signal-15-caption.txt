@@ -1,40 +1,33 @@
-A layoff headline is not a layoff count.
+A company can cut jobs and still grow its workforce.
 
+That was the detail that stayed with me while putting this dashboard together.
 
-I kept coming back to that while reading recent company announcements.
+For Gokul’s Data Signal 15, I looked across technology, IT services, finance and consumer businesses—including FAANG + NVIDIA.
 
+The numbers tell different stories.
 
-On 17 November, Imperial Brands reported 2,100 exits confirmed or in consultation, plus a further 2,100–2,500 roles expected to go by the end of 2030.
+Amazon’s January update covered approximately 16,000 roles. Meta’s July call discussed around 8,000 employees affected by its May reduction. These are specific rounds, not this week’s totals.
 
-That is a serious workforce change. It is also different from saying 4,600 people have already left.
+Accenture reported severance costs, yet its workforce rose from approximately 779,000 to 814,000 over its financial year.
 
+HSBC reported 4,390 fewer employee FTEs over nine months. That is a net workforce change—not automatically 4,390 redundancies.
 
-For Gokul’s Data Signal 15, I went back to six companies’ own disclosures to understand the numbers behind the headlines.
+And when a company’s reviewed disclosure does not provide a comparable layoff count, I’ve left it unavailable. Missing is not zero.
 
-Some report a percentage of their workforce. Others report a role count. Some describe consultations; others describe plans that run into 2027 or 2030.
+For me, the question goes beyond “who cut the most?”
 
+Which roles are disappearing? Where is hiring continuing? And are businesses improving how work gets done, or passing more work to the people who remain?
 
-The human impact matters. So does describing it accurately.
+I built an interactive dashboard so you can filter by industry, compare the different measures and inspect each company’s source and timeline.
 
-
-As a business analyst, I’d want to know what happens after the announcement: are people redeployed, does workload rise, and what happens to service quality and delivery?
-
-Headcount savings alone won’t answer those questions.
-
-
-When a company announces a restructuring, what evidence would convince you that it has improved the business beyond reducing costs?
-
-
-Explore my interactive dashboard — filter by sector and disclosure window, compare reported figures and read each company’s context:
-
+Explore it here:
 https://gokulanand2307.github.io/data-signal-15.html
 
 My GitHub:
 https://github.com/GokulAnand2307
 
+What would you look at first to judge whether a restructuring is actually working?
 
-Primary sources and scope notes in the comments.
-
+Sources and dataset in the comments. Evidence checked 18 November 2026.
 
 #DataAnalytics #Layoffs #WorkforcePlanning #BusinessAnalysis #FutureOfWork
-
